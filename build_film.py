@@ -31,9 +31,9 @@ SHOT_BED = {1: ["city_night.wav", "rotors.wav"], 2: ["console.wav"], 3: ["tensio
             4: ["console.wav"], 5: ["strobe.wav", "rotors.wav"],
             6: ["fire.wav", "boom.wav"], 7: ["rotors.wav"], 8: ["sea.wav"],
             9: ["dawn.wav"]}
-SHOT_SFX = {3: [("audio/sfx/gunfire_close_seq.wav", 2.2)],
-            5: [("audio/sfx/gunfire_distant_seq.wav", 1.4)]}
-BED_GAIN = {"rotors.wav": 1.0}
+SHOT_SFX = {3: [("audio/sfx/blast_fire_seq.wav", 2.2)],
+            5: [("audio/sfx/blast_distant_seq.wav", 2.0)]}
+BED_GAIN = {"rotors.wav": 3.5}
 NARR_DELAY = 0.3
 TAIL = 0.9
 W, H, FPS = 1280, 720, 24

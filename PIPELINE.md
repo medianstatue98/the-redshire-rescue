@@ -61,12 +61,16 @@ construction. Per-shot mapping lives in `build_film.py` (SHOT_BED).
 
 ## 6b. Discrete SFX (`gen_sfx.py`)
 
-Gunshots and extra rotor presence are synthesized the same way as the beds
-(no recorded sources). `gunfire_close_seq.wav` (shot 3, the balcony ambush)
-and `gunfire_distant_seq.wav` (shot 5, the street chase) are timed sequences
-of single synthesized cracks; rotors are layered under shots 1 and 3.
-Discrete SFX are mixed single-play at higher gain than the looped beds,
-ducked under the narration, then through the same -16 LUFS chain.
+Sci-fi SFX are synthesized the same way as the beds (no recorded sources).
+`blast_fire_seq.wav` (shot 3, the balcony ambush) is a timed sequence of
+energy-weapon blasts — each a descending 1800→150Hz zap plus plasma noise
+burst and sub thump — placed in the narrator's breath gaps so they land
+clean. `blast_distant_seq.wav` (shot 5, the street chase) is the distant
+equivalent with two explosion hits. The narration is sidechain-ducked under
+each blast (cinematic punch-through), then everything runs through the same
+-16 LUFS chain. The drone rotor bed was redesigned with a harmonic stack,
+blade-pass chop and motor whine reaching into the phone-speaker band, and
+mixed hot under the flight shots so the drones are clearly audible.
 
 ## 7. Assembly (`build_film.py`)
 
